@@ -83,8 +83,7 @@ def start_client():
         # Output the results
         print(f"Send time: {send_time:.2f} seconds, speed: {send_speed_mbps:.2f} Mbps")
         print(f"Receive time: {receive_time:.2f} seconds, speed: {receive_speed_mbps:.2f} Mbps")
-        print(
-            f"Total round-trip time: {total_time:.2f} seconds, total speed: {total_speed_mbps:.2f} Mbps")
+        print(f"Total round-trip time: {total_time:.2f} seconds, total speed: {total_speed_mbps:.2f} Mbps")
 
 
 if __name__ == "__main__":
